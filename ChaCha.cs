@@ -172,7 +172,6 @@ namespace Crypto
         /// <summary>
         /// Executes four SingleRound operations.
         /// </summary>
-        [CLSCompliant(false)]
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void QuarterRound(ref uint w, ref uint x, ref uint y, ref uint z)
         {
